@@ -9,26 +9,26 @@ __great performance__ and no __runtime exceptions__."*
 
 ---
 
-# JavaScript
+## JavaScript
 
 * __runtime exceptions__
 
 ---
 
-# `undefined is not a function`
+## `undefined is not a function`
 
 ![](assets/undefined_is_not_a_function.gif)
 
 ---
 
-# JavaScript
+## JavaScript
 
 * runtime exceptions
 * __dynamic types__
 
 ---
 
-# Dynamic Types
+## Dynamic Types
 
 ```js
 users.get('user1234')
@@ -43,7 +43,7 @@ Maybe is `user.firstName`, `user.fullName`...
 
 ---
 
-# JavaScript
+## JavaScript
 
 * runtime exceptions
 * dynamic types
@@ -51,7 +51,7 @@ Maybe is `user.firstName`, `user.fullName`...
 
 ---
 
-# Bad Error Handling
+## Bad Error Handling
 
 ```js
 users.get('user1234')
@@ -65,27 +65,27 @@ Where is the `.catch`?
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * __no runtime exceptions__
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * no runtime exceptions
 * __great performance__
 
 ---
 
-# Fast Rendering
+## Fast Rendering
 
 ![](assets/fast_rendering.png)
 source: http://elm-lang.org/
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * no runtime exceptions
 * great performance
@@ -93,17 +93,17 @@ source: http://elm-lang.org/
 
 ---
 
-# Nice Error Messages
+## Nice Error Messages
 ![](assets/nice_error_msgs.png)
 
 ---
 
-# Nice Error Messages
+## Nice Error Messages
 ![](assets/nice_error_msgs_missing_field.png)
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * no runtime exceptions
 * great performance
@@ -112,7 +112,7 @@ source: http://elm-lang.org/
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * no runtime exceptions
 * great performance
@@ -123,13 +123,13 @@ source: http://elm-lang.org/
 ---
 
 Automatic semver enforcement with
-# elm-package
+## elm-package
 ![](assets/semver.png)
 
 
 ---
 
-# Why Elm?
+## Why Elm?
 
 * no runtime exceptions
 * great performance
@@ -140,7 +140,7 @@ Automatic semver enforcement with
 
 ---
 
-# Easy Start
+## Easy Start
 
 | JavaScript        | Elm      |
 |-------------------|----------|
@@ -153,32 +153,32 @@ Automatic semver enforcement with
 
 ---
 
-# What is Elm?
+## What is Elm?
 
 * __compiles to javascript__
 
 ---
 
-# Compiles to JavaScript
+## Compiles to JavaScript
 ![](assets/compiles_to_js.png)
 
 ---
 
-# What is Elm?
+## What is Elm?
 
 * compiles to javascript
 * __statically typed__
 
 ---
 
-# Statically Typed
+## Statically Typed
 
 * "if it compiles, it usually just works"
 * cheaper refactoring -> less technical debt
 
 ---
 
-# Why is Elm different from TypeScript?
+## Why is Elm different from TypeScript?
 
 ---
 
@@ -206,7 +206,7 @@ It doesn't compile!
 
 ---
 
-# In TypeScript we can use `any`
+## In TypeScript we can use `any`
 
 ![](assets/soy_programador.gif)
 
@@ -225,7 +225,7 @@ Now it compiles!
 
 ---
 
-# Runtime exception
+## Runtime exception
 
 `Uncaught TypeError: account.substr is not a function`
 
@@ -234,20 +234,20 @@ Now it compiles!
 ---
 
 
-# What is Elm?
+## What is Elm?
 * compiles to javascript
 * statically typed
 * __purely functional__
 
 ---
 
-# State
+## State
 
 All the __information__ of your application at a given instant in time.
 
 ---
 
-# Side effects
+## Side effects
 
 Changes made to the __external world__.
 
@@ -255,24 +255,24 @@ Changes made to the __external world__.
 
 Every Elm program is composed of
 
-# PURE FUNCTIONS
+## PURE FUNCTIONS
 
 ---
 
-# What is a pure function?
+## What is a pure function?
 
 * __Given the same input, will always return the same output.__
 
 ---
 
-# What is a pure function?
+## What is a pure function?
 
 * Given the same input, will always return the same output.
 * __Produces no side effects.__
 
 ---
 
-# What is a pure function?
+## What is a pure function?
 
 * Given the same input, will always return the same output.
 * Produces no side effects.
@@ -320,7 +320,7 @@ function countVerifiedCustomers () {
 
 ---
 
-# What happens with ...
+## What happens with ...
 
 ---
 
@@ -340,30 +340,30 @@ const random = Math.random()
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 
 * time
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 * time
 * randomness
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 * time
 * randomness
 * http calls
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 * time
 * randomness
 * http calls
@@ -371,7 +371,7 @@ const random = Math.random()
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 * time
 * randomness
 * http calls
@@ -380,7 +380,7 @@ const random = Math.random()
 
 ---
 
-# How can Elm deal with...
+## How can Elm deal with...
 * time
 * randomness
 * http calls
@@ -391,7 +391,7 @@ const random = Math.random()
 ---
 
 In Elm you can use...
-# Commands
+## Commands
 
 ---
 
@@ -416,7 +416,7 @@ Elm is an __effect manager__ for the __EVERYTHING__
 
 ---
 
-# Do you need a random number?
+## Do you need a random number?
 
 You ask for the random using a __`Cmd`__
 
@@ -427,7 +427,7 @@ And Elm returns them to you in a __`Msg`__
 
 ---
 
-# Functions that involve side-effects in Elm are:
+## Functions that involve side-effects in Elm are:
 
 * easily understood
 * easily testable (data in, data out)
@@ -435,7 +435,7 @@ And Elm returns them to you in a __`Msg`__
 
 ---
 
-# Commands can come from
+## Commands can come from
 
 * `Html` - the user, event in the HTML
 * `Cmd` - your code, returning Cmd from a function
@@ -447,7 +447,7 @@ And Elm returns them to you in a __`Msg`__
 
 ---
 
-# Elm syntax
+## Elm syntax
 * __Functions__
 
 ---
@@ -545,7 +545,7 @@ indexOf : thing -> List thing -> Int
 
 ---
 
-# Elm syntax
+## Elm syntax
 * Functions
 * __Modules__
 
@@ -569,7 +569,7 @@ Elm expects to find this module in a file called __`Main.elm`__
 
 ---
 
-# Elm syntax
+## Elm syntax
 * Functions
 * Modules
 * __Union types__
@@ -621,7 +621,7 @@ type Answer = Yes | No | Other OtherAnswer
 
 ---
 
-# Elm syntax
+## Elm syntax
 * Functions
 * Modules
 * Union types
@@ -659,7 +659,7 @@ label: Player -> String
 
 ---
 
-# The Elm architecture
+## The Elm architecture
 ![](assets/tea.png)
 
 ---
@@ -742,13 +742,13 @@ main =
 
 ---
 
-# Run it in a live editor
+## Run it in a live editor
 ![](assets/ellie_logo.png)
 https://ellie-app.com/3d8p6NV4dyGa1/0
 
 ---
 
-# In Elm nothing can be null / undefined
+## In Elm nothing can be null / undefined
 ![](assets/thinking_meme.jpg)
 
 ---
@@ -772,7 +772,7 @@ Runtime exception:
 ---
 
 In the JavaScript world __anything__ can be
-# null
+## null
 so you have to add defensive programming in __everywhere__:
 ```
 var users = []
@@ -785,7 +785,7 @@ if (firstUser) {
 ---
 
 In Elm if something can be null, we use
-# Maybe
+## Maybe
 
 ---
 
@@ -815,17 +815,17 @@ case firstUser of
 
 ---
 
-# bye runtime exceptions!
+## bye runtime exceptions!
 ![](assets/cheers_ricky_morty.gif)
 
 ---
 
-# Let's play with Elm!
+## Let's play with Elm!
 ![](assets/everything_is_beautiful.png)
 
 ---
 
-# Installation
+## Installation
 
 ```
 npm install -g elm
@@ -833,7 +833,7 @@ npm install -g elm
 
 ---
 
-# Elm tools
+## Elm tools
 
 * elm-repl
 * elm-package
@@ -842,7 +842,7 @@ npm install -g elm
 
 ---
 
-# Editors
+## Editors
 
 * [Vim](https://github.com/ElmCast/elm-vim)
 * [Atom](https://atom.io/packages/language-elm)
@@ -858,7 +858,7 @@ more info: https://guide.elm-lang.org/install.html
 
 ---
 
-# Sources
+## Sources
 * [elm-lang by Evan Czaplicki](http://elm-lang.org/)
 * [Elm in production by Richard Feldman](https://www.youtube.com/watch?v=XsNk5aOpqUc)
 * [Elm Tutorial by @sebasporto](https://www.gitbook.com/book/sporto/elm-tutorial/details)
