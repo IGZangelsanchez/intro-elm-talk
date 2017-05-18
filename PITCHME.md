@@ -660,7 +660,7 @@ label: Player -> String
 ---
 
 # The Elm architecture
-![](assets/tea.svg)
+![](assets/tea.png)
 
 ---
 
