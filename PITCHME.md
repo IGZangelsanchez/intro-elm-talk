@@ -37,9 +37,9 @@ users.get('user1234')
  })
 ```
 
-`user.name` exists?
+Does `user.name` exists?
 
-Maybe is `user.firstName`, `user.fullName`...
+Maybe it is `user.firstName`, `user.fullName`...
 
 ---
 
@@ -261,22 +261,22 @@ Every Elm program is composed of
 
 ## What is a pure function?
 
-* __Given the same input, will always return the same output.__
+* __Given the same input, it will always return the same output.__
 
 ---
 
 ## What is a pure function?
 
-* Given the same input, will always return the same output.
-* __Produces no side effects.__
+* Given the same input, it will always return the same output.
+* __No side effects.__
 
 ---
 
 ## What is a pure function?
 
-* Given the same input, will always return the same output.
-* Produces no side effects.
-* __Doesn't depend on external mutable state.__
+* Given the same input, it will always return the same output.
+* No side effects.
+* __It doesn't depend on external mutable state.__
 
 ---
 
@@ -315,8 +315,8 @@ function countVerifiedCustomers () {
 
 ---
 
-* there are not arguments
-* doesn't return the __same value__ every time
+* no arguments
+* it doesn't return the __same value__ every time
 
 ---
 
@@ -418,7 +418,7 @@ Elm is an __effect manager__ for the __EVERYTHING__
 
 ## Do you need a random number?
 
-You ask for the random using a __`Cmd`__
+You ask for a random number using a __`Cmd`__
 
 `Random.generate`
 
@@ -491,7 +491,7 @@ add 5 2 -- result 7
 
 ---
 
-We can think is a function that takes two integers and returns another integer
+We can see it as a function that takes two integers and returns another integer
 
 ---
 
@@ -773,7 +773,7 @@ Runtime exception:
 
 In the JavaScript world __anything__ can be
 ## null
-so you have to add defensive programming in __everywhere__:
+so you have to add defensive code __everywhere__:
 ```
 var users = []
 var firstUser = users[0]
